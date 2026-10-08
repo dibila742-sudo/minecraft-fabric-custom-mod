@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "custommod",
+  "version": "${version}",
+  "name": "Custom Mod",
+  "description": "Minecraft Fabric 1.21.4 mod with custom GUI, fog, time, settings and keybinds.",
+  "authors": [
+    "Copilot"
+  ],
+  "contact": {
+    "homepage": "https://github.com/dibila742-sudo/minecraft-fabric-custom-mod"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.custommod.CustomMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "fabric": "*"
+  }
+}
